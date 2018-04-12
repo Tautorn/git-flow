@@ -30,7 +30,7 @@
 
 ### QA branch are like a clone from last RC, then attention! Never send preivous RC overwrite QA branch. Follow right flow, merge previous RC with last RC and sent to QA, just it!
 
-Simple like jeep painel.
+`Simple like jeep painel.`
 
 **By the way, keep RC updated with master branch.**
 
