@@ -16,4 +16,8 @@ Test ever piece of the code.
 
 Attention if is necessary overwrite QA.
 
+### Good habits
+
+When finalize a feature, test in developer, if all ok open a PR and ask a friend to test too, it is awesome :)
+
 > Enjoy :)
