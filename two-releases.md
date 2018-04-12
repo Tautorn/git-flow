@@ -28,6 +28,10 @@
 * After Pull Request its valid, then merge branch with QA and notify Analisty.
 * When sprint are completed, generate a release, merge with master and generate a tag.
 
+### QA branch are like a clone from last RC, then attention! Never send preivous RC overwrite QA branch. Follow right flow, merge previous RC with last RC and sent to QA, just it!
+
+Simple like jeep painel.
+
 **By the way, keep RC updated with master branch.**
 
 > Finish! Enjoy ;)
