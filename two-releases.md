@@ -1,6 +1,6 @@
 ### Flow with a single Release candidate
 
-![Single Release](git-flow-single-release.png)
+![Single Release](git-flow-two-releases.png)
 
 #### Steps:
 
@@ -15,6 +15,12 @@
 
 #### Attention:
 
+> When existe more than a release candidate (RC) then is necessary more attention!
+
+* Last release has all features from previous RC, example:
+  - Existing two RC, RC 1.0 and RC 2.0, when a feature is sent to RC 1.0 is necessary merge with RC 2.0 too. But, when a feature is sent to RC 2.0, this feature it is not merged with RC 1.0.
+  - Remember, RC 2.0 are created from RC 1.0, then RC 1.0 must be contains only yours features.
+  - When RC 1.0 is merged with master, RC 2.0 logically will have RC 1.0 featurs, simple :)
 * All new features from the sprint must be created from release candidate.
 * If exist a bug in master and he are fixed, when it happens is necessary update all branchs with master (if necessary), avoiding conflict and others.
 * Hotfix in sprint are fixeds in branch origins.
